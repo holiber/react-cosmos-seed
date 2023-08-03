@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "react-cosmos-plugin-webpack",
+    "react-cosmos-plugin-open-fixture"
+  ],
+  "staticPath": "public",
+  "watchDirs": ["src"],
+  "webpack": {
+    "configPath": "react-scripts/config/webpack.config"
+  }
+}
