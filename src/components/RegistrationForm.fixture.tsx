@@ -19,7 +19,7 @@ const RegistrationFormFixture = () => {
 
   return (
     <>
-      <section>## Registration form</section>
+      <h1>Registration Form</h1>
       <RegistrationForm model={formData} onSubmit={setFormData} />
 
       <h2>Preview</h2>

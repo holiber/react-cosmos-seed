@@ -5,6 +5,7 @@
   ],
   "staticPath": "public",
   "watchDirs": ["src"],
+  "globalImports": ["src/global.css"],
   "webpack": {
     "configPath": "react-scripts/config/webpack.config"
   }
