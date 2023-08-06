@@ -1,5 +1,7 @@
 import { RegistrationForm } from './RegistrationForm';
 import { useValue } from 'react-cosmos/client';
+import { Input } from 'antd';
+const { TextArea } = Input;
 
 const RegistrationFormFixture = () => {
   const [formData, setFormData] = useValue('formData', {
@@ -23,11 +25,10 @@ const RegistrationFormFixture = () => {
       <RegistrationForm model={formData} onSubmit={setFormData} />
 
       <h2>Preview</h2>
-      <textarea
+      <TextArea
         value={serializedModel}
         readOnly
         rows={serializedModelRowsCnt}
-        style={{ width: '100%' }}
       />
     </>
   );
